@@ -5,9 +5,7 @@
     "author": "zwiftguy",
     "website_url": "https://github.com/micahreeves",
     "version": "1.0.0",
-    "content_js": [
-        "pages/src/wkg-display.mjs"
-    ],
+    "content_js": ["pages/src/wkg-display.mjs"],
     "content_css": [],
     "web_root": "pages",
     "windows": [
