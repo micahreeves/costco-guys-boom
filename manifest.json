@@ -16,7 +16,6 @@
             "id": "Costco Guys BOOM",
             "name": "Costco Guys BOOM",
             "description": "go above the threshold and BOOM!",
-            "always_visible": true,
             "overlay": true,
             "frame": false,
             "default_bounds": {

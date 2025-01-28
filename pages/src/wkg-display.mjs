@@ -37,6 +37,7 @@ common.settingsStore.setDefault({
     imageWidth1: 200,
     localImageData1: '',
     animation1: 'float',
+
     // Second threshold image settings
     imageSource2: 'default',
     imageUrl2: '',
