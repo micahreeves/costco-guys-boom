@@ -1,0 +1,30 @@
+{
+    "manifest_version": 1,
+    "name": "Costco Guys BOOM",
+    "description": "costcoguyboom",
+    "author": "zwiftguy",
+    "website_url": "https://github.com/micahreeves",
+    "version": "1.0.0",
+    "content_js": [
+        "pages/src/wkg-display.mjs"
+    ],
+    "content_css": [],
+    "web_root": "pages",
+    "windows": [
+        {
+            "file": "pages/wkg-display.html",
+            "id": "Costco Guys BOOM",
+            "name": "Costco Guys BOOM",
+            "description": "go above the threshold and BOOM!",
+            "always_visible": true,
+            "overlay": true,
+            "frame": false,
+            "default_bounds": {
+                "width": 500,
+                "height": 500,
+                "x": -300,
+                "y": 100
+            }
+        }
+    ]
+}

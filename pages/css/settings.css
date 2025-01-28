@@ -1,0 +1,103 @@
+/* File: pages/css/settings.css */
+body {
+    background: var(--sauce-background, #222) !important;
+}
+
+.section {
+    background: var(--sauce-overlay-background, #333);
+    border: 1px solid var(--sauce-border, #444);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 4px;
+}
+
+/* Image Preview Container */
+.preview-container {
+    width: 150px;
+    height: 100px;
+    border: 2px dashed var(--sauce-border, #444);
+    border-radius: 4px;
+    margin-top: 8px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--sauce-background-alt, #1a1a1a);
+    position: relative;
+}
+
+/* Image Preview Sizing */
+#image-preview1,
+#image-preview2 {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: none;
+}
+
+.error-message {
+    color: #ff4444;
+    font-size: 0.9em;
+    display: none;
+    text-align: center;
+    padding: 8px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.error-message.show {
+    display: block;
+}
+
+/* Form Styling */
+label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+key {
+    min-width: 120px;
+    margin-right: 8px;
+}
+
+input[type="number"] {
+    width: 80px;
+}
+
+input[type="text"] {
+    flex: 1;
+    max-width: 150px;
+}
+
+input[type="file"] {
+    max-width: 97px;
+}
+
+.image-preview {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.image-preview key {
+    margin-bottom: 4px;
+}
+
+/* Title Styling */
+.title {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 16px 0 8px 0;
+    color: var(--sauce-text-color, #fff);
+    border-bottom: 1px solid var(--sauce-border, #444);
+    padding-bottom: 4px;
+}
+
+.title:first-child {
+    margin-top: 0;
+}
